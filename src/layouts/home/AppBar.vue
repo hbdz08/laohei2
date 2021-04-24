@@ -5,7 +5,7 @@
       app
       elevation="1"
       elevate-on-scroll
-      height="80"
+      height="100"
     >
       <base-img
         :src="require('@/assets/logo.png')"
@@ -15,12 +15,12 @@
         width="100%"
       />
 
-      <base-img
+      <!-- <base-img
         :src="require(`@/assets/zero-logo-${$vuetify.theme.isDark ? 'dark' : 'light'}.svg`)"
         contain
         max-width="96"
         width="100%"
-      />
+      /> -->
 
       <v-spacer />
 

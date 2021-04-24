@@ -27,9 +27,9 @@
             weight="medium"
           />
 
-          <base-body>
+          <!-- <base-body>
           
-          </base-body>
+          </base-body> -->
 
           <div
             :class="$vuetify.breakpoint.smAndDown ? 'flex-column align-start' : 'align-center'"
