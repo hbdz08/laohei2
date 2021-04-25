@@ -2,7 +2,7 @@
   <section id="hero">
     <v-img
       :min-height="minHeight"
-      :src="require('@/assets/light.jpg')"
+      :src="require('@/assets/973b85e1fcf41d7df472a67f25e08e5a.jpg')"
       class="white--text"
       gradient="to bottom, rgba(11, 28, 61, .9), rgba(0,0,0,.4)"
     >
@@ -36,7 +36,7 @@
             class="d-flex flex-wrap"
           >
             <base-btn>
-              Discover More
+              登录器下载
             </base-btn>
 
             <span class="font-weight-bold ml-6 mr-4 my-4">or</span>
@@ -47,7 +47,7 @@
               height="auto"
               text
             >
-              Get Started Now
+              游戏充值
             </base-btn>
           </div>
         </v-responsive>
