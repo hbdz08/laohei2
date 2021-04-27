@@ -13,3 +13,6 @@ github_token: $GITHUB_TOKEN
 local_dir: dist
 on:
   branch: master
+
+after_success: 
+- sh deploy.sh

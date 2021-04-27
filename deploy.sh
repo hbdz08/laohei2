@@ -4,6 +4,7 @@
 set -e
 
 # 构建
+set NODE_ENV=production
 yarn run build
 
 # cd 到构建输出的目录下 
