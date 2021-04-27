@@ -34,7 +34,7 @@
             :class="$vuetify.breakpoint.smAndDown ? 'flex-column align-start' : 'align-center'"
             class="d-flex flex-wrap"
           >
-            <base-btn>
+            <base-btn href="#theme-features">
               登录器下载
             </base-btn>
 

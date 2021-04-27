@@ -7,6 +7,7 @@
     class="font-weight-bold"
     x-large
     v-bind="$attrs"
+    :href="href"
     v-on="$listeners"
   >
     <slot />
@@ -33,6 +34,10 @@
       tile: {
         type: Boolean,
         default: true,
+      },
+      href: {
+        type: String,
+        default: '',
       },
     },
   }
