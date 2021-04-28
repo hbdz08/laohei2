@@ -7,7 +7,7 @@
     "dev": "yarn serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "postversion": "node scripts/postversion.js"
+    "postversion": "node scripts/postversion.js",
   },
   "dependencies": {
     "vue": "^2.6.12",
