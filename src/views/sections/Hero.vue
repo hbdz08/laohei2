@@ -23,7 +23,7 @@
           />
           <base-heading
             size="text-h2"
-            title="欢迎来到传奇老黑"
+            title="欢迎来到老黑私服"
             weight="medium"
           />
 
@@ -45,8 +45,9 @@
               class="pa-1"
               height="auto"
               text
+              href="https://qm.qq.com/cgi-bin/qm/qr?k=YpfueL5nCiCz4ZO5XjVFCEmjbSWLiQMS&jump_from=webapi&quot;><img border=&quot;0&quot; src=&quot;//pub.idqqimg.com/wpa/images/group.png&quot; alt=&quot;老黑私服-传奇1群&quot; title=&quot;老黑私服-传奇1群&quot;"
             >
-              游戏充值
+              加入QQ群
             </base-btn>
           </div>
         </v-responsive>

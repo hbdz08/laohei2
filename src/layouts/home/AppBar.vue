@@ -8,10 +8,11 @@
       height="100"
     >
       <base-img
-        :src="require('@/assets/logo.png')"
+
+        :src="require(`@/assets/logo-${$vuetify.theme.isDark ? 'dark' : 'light'}.png`)"
         class="mr-3 hidden-xs-only"
         contain
-        max-width="300"
+        max-width="130"
         width="100%"
       />
 

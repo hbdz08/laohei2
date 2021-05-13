@@ -12,17 +12,17 @@
           md="6"
         >
           <div class="d-flex flex-wrap justify-md-start justify-center justify-md-none">
-            <template v-for="(s, i) in social">
+            <template v-for="(s, i) in result">
               <a
-                :key="s"
+                :key="s.social"
                 class="white--text pa-1 pa-md-0"
-                href="#"
-                v-text="s"
+                :href="s.href"
+                v-text="s.social"
               />
 
               <v-responsive
-                v-if="i < social.length - 1"
-                :key="`divider-${s}`"
+                v-if="i < result.length - 1"
+                :key="`divider-${s.social}`"
                 class="mx-4 shrink hidden-sm-and-down"
                 max-height="24"
               >
@@ -37,7 +37,7 @@
           cols="12"
           md="6"
         >
-          Copyright &copy; 2020 Vuetify, LLC
+          Copyright &copy; 2021 laoheisf
         </v-col>
       </v-row>
     </v-container>
@@ -49,12 +49,11 @@
     name: 'HomeFooter',
 
     data: () => ({
-      social: [
-        'Facebook',
-        'Twitter',
-        'Instagram',
-        'Linkedin',
-      ],
+
+      result: [{
+        social: '加入QQ群',
+        href: 'https://qm.qq.com/cgi-bin/qm/qr?k=YpfueL5nCiCz4ZO5XjVFCEmjbSWLiQMS&jump_from=webapi"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="老黑私服-传奇1群" title="老黑私服-传奇1群"',
+      }],
     }),
   }
 </script>

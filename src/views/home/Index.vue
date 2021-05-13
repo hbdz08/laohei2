@@ -17,10 +17,10 @@
       LoadSections([
         'hero',
         'theme-features',
-        'features',
-        'affiliates',
-        'social-media',
-        'pro-features',
+        // 'features',
+        // 'affiliates',
+        // 'social-media',
+        // 'pro-features',
       ]),
     ],
 
