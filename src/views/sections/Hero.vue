@@ -2,9 +2,10 @@
   <section id="hero">
     <v-img
       :min-height="minHeight"
-      :src="require('@/assets/973b85e1fcf41d7df472a67f25e08e5a.jpg')"
+
+      :src="require('@/assets/35356255.jpg')"
       class="white--text"
-      gradient="to bottom, rgba(11, 28, 61, .9), rgba(0,0,0,.4)"
+      gradient="to bottom, rgba(11, 28, 61, .2), rgba(0,0,0,.4)"
     >
       <v-container class="fill-height px-4 py-12">
         <v-responsive
@@ -38,16 +39,14 @@
               登录器下载
             </base-btn>
 
-            <span class="font-weight-bold ml-6 mr-4 my-4">or</span>
+            <span class="font-weight-bold ml-6 mr-4 my-4" />
 
-            <base-btn
-              :ripple="false"
-              class="pa-1"
-              height="auto"
-              text
-              href="https://qm.qq.com/cgi-bin/qm/qr?k=YpfueL5nCiCz4ZO5XjVFCEmjbSWLiQMS&jump_from=webapi&quot;><img border=&quot;0&quot; src=&quot;//pub.idqqimg.com/wpa/images/group.png&quot; alt=&quot;老黑私服-传奇1群&quot; title=&quot;老黑私服-传奇1群&quot;"
-            >
+            <base-btn href="https://qm.qq.com/cgi-bin/qm/qr?k=YpfueL5nCiCz4ZO5XjVFCEmjbSWLiQMS&jump_from=webapi&quot;><img border=&quot;0&quot; src=&quot;//pub.idqqimg.com/wpa/images/group.png&quot; alt=&quot;老黑私服-传奇1群&quot; title=&quot;老黑私服-传奇1群&quot;">
               加入QQ群
+            </base-btn>
+            <span class="font-weight-bold ml-6 mr-4 my-4" />
+            <base-btn href="#theme-features">
+              在线充值
             </base-btn>
           </div>
         </v-responsive>
