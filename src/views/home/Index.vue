@@ -17,7 +17,7 @@
       LoadSections([
         'hero',
         'theme-features',
-        'gameIntroduction',
+        // 'gameIntroduction',
         // 'features',
         // 'affiliates',
         // 'social-media',
