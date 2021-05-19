@@ -4,7 +4,7 @@ module.exports = {
     'vuetify',
   ],
   publicPath: process.env.NODE_ENV === 'production'
-  ? '/'
+  ? 'https://www.laoheisf.cn'
   : '/',
   devServer: {
     port: 8081,
