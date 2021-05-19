@@ -41,11 +41,17 @@
 
             <span class="font-weight-bold ml-6 mr-4 my-4" />
 
-            <base-btn href="https://qm.qq.com/cgi-bin/qm/qr?k=YpfueL5nCiCz4ZO5XjVFCEmjbSWLiQMS&jump_from=webapi&quot;><img border=&quot;0&quot; src=&quot;//pub.idqqimg.com/wpa/images/group.png&quot; alt=&quot;老黑私服-传奇1群&quot; title=&quot;老黑私服-传奇1群&quot;">
+            <base-btn
+              target="_blank"
+              href="https://qm.qq.com/cgi-bin/qm/qr?k=YpfueL5nCiCz4ZO5XjVFCEmjbSWLiQMS&jump_from=webapi&quot;><img border=&quot;0&quot; src=&quot;//pub.idqqimg.com/wpa/images/group.png&quot; alt=&quot;老黑私服-传奇1群&quot; title=&quot;老黑私服-传奇1群&quot;"
+            >
               加入QQ群
             </base-btn>
             <span class="font-weight-bold ml-6 mr-4 my-4" />
-            <base-btn href="#theme-features">
+            <base-btn
+              href="http://newcz1.61card.com/Recharge/Group/dhx"
+              target="_blank"
+            >
               在线充值
             </base-btn>
           </div>

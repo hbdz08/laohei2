@@ -35,7 +35,7 @@
             v-for="(name, i) in items"
             :key="i"
             :to="{ name }"
-            :exact="name === 'Home'"
+            :exact="name === '首页'"
             :ripple="false"
             class="font-weight-bold"
             min-width="96"
@@ -61,8 +61,8 @@
     data: () => ({
       drawer: null,
       items: [
-        '首页',
-        '充值入口',
+        // '首页',
+        // '充值入口',
       ],
     }),
   }
