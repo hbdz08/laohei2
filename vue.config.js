@@ -4,7 +4,7 @@ module.exports = {
     'vuetify',
   ],
   publicPath: process.env.NODE_ENV === 'production'
-  ? 'https://www.laoheisf.cn'
+  ? '/'
   : '/',
   devServer: {
     port: 8081,
@@ -21,8 +21,15 @@ module.exports = {
           ['^' + process.env.VUE_APP_BASE_API]: '',
         },
       },
+      'https://www.laoheisf.cn': {
+        target: process.env.VUE_APP_BASE_API,
+        changeOrigin: true, // 配置跨域
+        pathRewrite: {
+          ['^' + process.env.VUE_APP_BASE_API]: '',
+        },
     },
     // before: require('./mock/mock-server.js')
 
   },
+},
 }
