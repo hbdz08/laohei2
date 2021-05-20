@@ -9,6 +9,9 @@ module.exports = {
   devServer: {
     port: 8081,
     open: false,
+    headers: {
+      'Access-Control-Allow-Origin': '*',
+    },
     overlay: {
       warnings: false,
       errors: true,
