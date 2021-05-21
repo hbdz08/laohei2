@@ -7,6 +7,21 @@
       自动捡取 动收 绝不隐藏爆率 小消费 大激情 散人也能逆袭
       <br>
       沙捐赞助免费 散人好发育
+      <br>
+      <v-btn
+        color="red"
+        class="ma-4 white--text"
+        href="https://ftp.bmp.ovh/imgs/2021/05/e2b7a4a6b80f789e.jpg"
+        target="_blank"
+      >
+        点我联系客服微信（获取沙捐码）
+        <v-icon
+          right
+          dark
+        >
+          mdi-account-tie-voice
+        </v-icon>
+      </v-btn>
     </base-section-heading>
 
     <v-container>

@@ -43,9 +43,9 @@
 
             <base-btn
               target="_blank"
-              href="https://qm.qq.com/cgi-bin/qm/qr?k=YpfueL5nCiCz4ZO5XjVFCEmjbSWLiQMS&jump_from=webapi&quot;><img border=&quot;0&quot; src=&quot;//pub.idqqimg.com/wpa/images/group.png&quot; alt=&quot;老黑私服-传奇1群&quot; title=&quot;老黑私服-传奇1群&quot;"
+              href="http://wpa.qq.com/msgrd?v=3&uin=767866269&site=qq&menu=yes"
             >
-              加入QQ群
+              联系QQ客服
             </base-btn>
             <span class="font-weight-bold ml-6 mr-4 my-4" />
             <base-btn
